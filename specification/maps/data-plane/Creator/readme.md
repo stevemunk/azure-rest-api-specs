@@ -38,8 +38,8 @@ credential-scopes: 'https://atlas.microsoft.com/.default'
 ``` yaml
 directive:
   - suppress: NOT_LATEST_API_VERSION_IN_DEFAULT_TAG
-    from: /specification/maps/data-plane/Creator/preview/2023-07-01-preview
-    reason: The files in '/specification/maps/data-plane/Creator/stable/2023-07-01-preview' were never released. Please ignore them, they should not appear in the TOC. '/specification/maps/data-plane/Creator/preview/2023-03-01-preview/' contains the latest preview.
+    from: /specification/maps/data-plane/Creator/preview/2023-07-01
+    reason: The files in '/specification/maps/data-plane/Creator/preview/2023-07-01' were never released. Please ignore them, they should not appear in the TOC. '/specification/maps/data-plane/Creator/preview/2023-03-01/' contains the latest preview.
 
   - suppress: RESPONSE_SCHEMA_NOT_IN_SPEC
     reason: false positive from oav is breaking our example validation. See azure/oav#1021.
@@ -51,12 +51,12 @@ These settings apply only when `--tag=package-stable-V2` is specified on the com
 
 ```yaml $(tag) == 'package-stable-V2'
 input-file:
-  - preview/2.0/alias.json
-  - preview/2.0/dataset.json
-  - preview/2.0/dwgconversion.json
-  - preview/2.0/featurestate.json
-  - preview/2.0/tileset.json
-  - preview/2.0/wfs.json
+  - stable/2.0/alias.json
+  - stable/2.0/dataset.json
+  - stable/2.0/dwgconversion.json
+  - stable/2.0/featurestate.json
+  - stable/2.0/tileset.json
+  - stable/2.0/wfs.json
 
 ```
 
@@ -66,16 +66,16 @@ These settings apply only when `--tag=package-2023-03-preview` is specified on t
 
 ``` yaml $(tag) == 'package-2023-03-preview'
 input-file:
-  - preview/2023-03-01-preview/alias.json
-  - preview/2023-03-01-preview/dataset.json
-  - preview/2023-03-01-preview/dwgconversion.json
-  - preview/2023-03-01-preview/features.json
-  - preview/2023-03-01-preview/featurestate.json
-  - preview/2023-03-01-preview/mapconfiguration.json
-  - preview/2023-03-01-preview/routeset.json
-  - preview/2023-03-01-preview/style.json
-  - preview/2023-03-01-preview/tileset.json
-  - preview/2023-03-01-preview/wayfind.json
+  - preview/2023-03-01/alias.json
+  - preview/2023-03-01/dataset.json
+  - preview/2023-03-01/dwgconversion.json
+  - preview/2023-03-01/features.json
+  - preview/2023-03-01/featurestate.json
+  - preview/2023-03-01/mapconfiguration.json
+  - preview/2023-03-01/routeset.json
+  - preview/2023-03-01/style.json
+  - preview/2023-03-01/tileset.json
+  - preview/2023-03-01/wayfind.json
 ```
 
 ### Tag: package-2022-09-preview
@@ -84,17 +84,17 @@ These settings apply only when `--tag=package-2022-09-preview` is specified on t
 
 ``` yaml $(tag) == 'package-2022-09-preview'
 input-file:
-  - preview/2022-09-01-preview/tileset.json
-  - preview/2022-09-01-preview/style.json
-  - preview/2022-09-01-preview/mapconfiguration.json
-  - preview/2022-09-01-preview/dataset.json
-  - preview/2022-09-01-preview/routeset.json
-  - preview/2022-09-01-preview/wayfind.json
-  - preview/2.0/alias.json
-  - preview/2.0/data.json
-  - preview/2.0/dwgconversion.json
-  - preview/2.0/featurestate.json
-  - preview/2.0/wfs.json
+  - preview/2022-09-01/tileset.json
+  - preview/2022-09-01/style.json
+  - preview/2022-09-01/mapconfiguration.json
+  - preview/2022-09-01/dataset.json
+  - preview/2022-09-01/routeset.json
+  - preview/2022-09-01/wayfind.json
+  - stable/2.0/alias.json
+  - stable/2.0/data.json
+  - stable/2.0/dwgconversion.json
+  - stable/2.0/featurestate.json
+  - stable/2.0/wfs.json
 ```
 
 ### Tag: package-2023-07
@@ -103,14 +103,14 @@ These settings apply only when `--tag=package-2023-07` is specified on the comma
 
 ``` yaml $(tag) == 'package-2023-07'
 input-file:
-  - stable/2023-07-01/alias.json
-  - stable/2023-07-01/dataset.json
-  - stable/2023-07-01/dwgconversion.json
-  - stable/2023-07-01/features.json
-  - stable/2023-07-01/featurestate.json
-  - stable/2023-07-01/mapconfiguration.json
-  - stable/2023-07-01/style.json
-  - stable/2023-07-01/tileset.json
+  - preview/2023-07-01/alias.json
+  - preview/2023-07-01/dataset.json
+  - preview/2023-07-01/dwgconversion.json
+  - preview/2023-07-01/features.json
+  - preview/2023-07-01/featurestate.json
+  - preview/2023-07-01/mapconfiguration.json
+  - preview/2023-07-01/style.json
+  - preview/2023-07-01/tileset.json
 ```
 
 ## Code Generation
