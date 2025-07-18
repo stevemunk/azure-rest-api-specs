@@ -60,11 +60,11 @@ input-file:
 
 ```
 
-### Tag: package-2023-03-preview
+### Tag: package-2023-03-01-preview
 
-These settings apply only when `--tag=package-2023-03-preview` is specified on the command line.
+These settings apply only when `--tag=package-2023-03-01-preview` is specified on the command line.
 
-``` yaml $(tag) == 'package-2023-03-preview'
+``` yaml $(tag) == 'package-2023-03-01-preview'
 input-file:
   - preview/2023-03-01-preview/alias.json
   - preview/2023-03-01-preview/dataset.json
@@ -78,11 +78,11 @@ input-file:
   - preview/2023-03-01-preview/wayfind.json
 ```
 
-### Tag: package-2022-09-preview
+### Tag: package-retired-2022-09-01-preview
 
-These settings apply only when `--tag=package-2022-09-preview` is specified on the command line.
+These settings apply only when `--tag=package-retired-2022-09-01-preview` is specified on the command line.
 
-``` yaml $(tag) == 'package-2022-09-preview'
+``` yaml $(tag) == 'package-retired-2022-09-01-preview'
 input-file:
   - preview/2022-09-01-preview/tileset.json
   - preview/2022-09-01-preview/style.json
@@ -96,11 +96,11 @@ input-file:
   - preview/2.0/wfs.json
 ```
 
-### Tag: package-2023-07
+### Tag: package-retired-2023-07-01
 
-These settings apply only when `--tag=package-2023-07` is specified on the command line.
+These settings apply only when `--tag=package-retired-2023-07-01` is specified on the command line.
 
-``` yaml $(tag) == 'package-2023-07'
+``` yaml $(tag) == 'package-retired-2023-07-01'
 input-file:
   - stable/2023-07-01/alias.json
   - stable/2023-07-01/dataset.json
