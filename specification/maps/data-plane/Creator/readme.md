@@ -45,11 +45,11 @@ directive:
     reason: false positive from oav is breaking our example validation. See azure/oav#1021.
 ```
 
-### Tag: package-stable-V2
+### Tag: package-stable-2.0
 
-These settings apply only when `--tag=package-stable-V2` is specified on the command line.
+These settings apply only when `--tag=package-stable-2.0` is specified on the command line.
 
-```yaml $(tag) == 'package-stable-V2'
+```yaml $(tag) == 'package-stable-2.0'
 input-file:
   - preview/2.0/alias.json
   - preview/2.0/dataset.json
