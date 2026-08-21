@@ -1163,9 +1163,8 @@ interface Weather {
       coordinates: float64[];
 
       /**
-       * Start date in [ISO
-       * 8601](https://www.iso.org/iso-8601-date-and-time-format.html) format, for
-       * example, 2019-10-27. The date range supported is 1 to 31 calendar days, so be
+       * Start date in [RFC 3339, section 5.6](https://www.rfc-editor.org/rfc/rfc3339#section-5.6)
+       * format, for example, 2019-10-27. The date range supported is 1 to 31 calendar days, so be
        * sure to specify a startDate and endDate that does not exceed a maximum of 31
        * days (i.e.: startDate=2012-01-01&endDate=2012-01-31).
        */
@@ -1173,7 +1172,7 @@ interface Weather {
       startDate: plainDate;
 
       /**
-       * End date in [ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html)
+       * End date in [RFC 3339, section 5.6](https://www.rfc-editor.org/rfc/rfc3339#section-5.6)
        * format, for example, 2019-10-28. The date range supported is 1 to 31 calendar
        * days, so be sure to specify a startDate and endDate that does not exceed a
        * maximum of 31 days (i.e.: startDate=2012-01-01&endDate=2012-01-31).
@@ -1234,9 +1233,8 @@ interface Weather {
       coordinates: float64[];
 
       /**
-       * Start date in [ISO
-       * 8601](https://www.iso.org/iso-8601-date-and-time-format.html) format, for
-       * example, 2019-10-27. The date range supported is 1 to 31 calendar days, so be
+       * Start date in [RFC 3339, section 5.6](https://www.rfc-editor.org/rfc/rfc3339#section-5.6)
+       * format, for example, 2019-10-27. The date range supported is 1 to 31 calendar days, so be
        * sure to specify a startDate and endDate that does not exceed a maximum of 31
        * days (i.e.: startDate=2012-01-01&endDate=2012-01-31).
        */
@@ -1244,7 +1242,7 @@ interface Weather {
       startDate: plainDate;
 
       /**
-       * End date in [ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html)
+       * End date in [RFC 3339, section 5.6](https://www.rfc-editor.org/rfc/rfc3339#section-5.6)
        * format, for example, 2019-10-28. The date range supported is 1 to 31 calendar
        * days, so be sure to specify a startDate and endDate that does not exceed a
        * maximum of 31 days (i.e.: startDate=2012-01-01&endDate=2012-01-31).
@@ -1308,9 +1306,8 @@ interface Weather {
       coordinates: float64[];
 
       /**
-       * Start date in [ISO
-       * 8601](https://www.iso.org/iso-8601-date-and-time-format.html) format, for
-       * example, 2019-10-27. The date range supported is 1 to 31 calendar days, so be
+       * Start date in [RFC 3339, section 5.6](https://www.rfc-editor.org/rfc/rfc3339#section-5.6)
+       * format, for example, 2019-10-27. The date range supported is 1 to 31 calendar days, so be
        * sure to specify a startDate and endDate that does not exceed a maximum of 31
        * days (i.e.: startDate=2012-01-01&endDate=2012-01-31).
        */
@@ -1318,7 +1315,7 @@ interface Weather {
       startDate: plainDate;
 
       /**
-       * End date in [ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html)
+       * End date in [RFC 3339, section 5.6](https://www.rfc-editor.org/rfc/rfc3339#section-5.6)
        * format, for example, 2019-10-28. The date range supported is 1 to 31 calendar
        * days, so be sure to specify a startDate and endDate that does not exceed a
        * maximum of 31 days (i.e.: startDate=2012-01-01&endDate=2012-01-31).
